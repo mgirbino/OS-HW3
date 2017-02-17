@@ -1,13 +1,13 @@
 #Michael Girbino
-#EECS 338 HW2: Processes
+#EECS 338 HW3: Pipes
 CC = gcc
 CFLAGS = -std=c11 -ggdb
-OUT = processes.o
-SRC = processes.c
+OUT = pipes.o
+SRC = pipes.c
 
-all:	processes
+all:	pipes
 
-processes:
+pipes:
 	$(CC) -o $(OUT) $(SRC) $(CFLAGS)  
 	chmod 755 $(OUT)
 
